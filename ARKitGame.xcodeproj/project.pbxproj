@@ -52,6 +52,7 @@
 		B16B6DC91F21CADF0006D10B /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 		B16B6DCA1F21D0C40006D10B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = ../../../Downloads/art.scnassets; sourceTree = "<group>"; };
 		B16B6DCC1F21D1DC0006D10B /* SpaceShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShip.swift; sourceTree = "<group>"; };
+		B16B6DD41F22854D0006D10B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		B16B6D8E1F21C5DE0006D10B = {
 			isa = PBXGroup;
 			children = (
+				B16B6DD41F22854D0006D10B /* README.md */,
 				B16B6D991F21C5DE0006D10B /* ARKitGame */,
 				B16B6DAE1F21C5DE0006D10B /* ARKitGameTests */,
 				B16B6DB91F21C5DE0006D10B /* ARKitGameUITests */,
