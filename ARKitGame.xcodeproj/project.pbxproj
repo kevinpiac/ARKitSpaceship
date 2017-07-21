@@ -14,6 +14,8 @@
 		B16B6DA51F21C5DE0006D10B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16B6DA31F21C5DE0006D10B /* LaunchScreen.storyboard */; };
 		B16B6DB01F21C5DE0006D10B /* ARKitGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B6DAF1F21C5DE0006D10B /* ARKitGameTests.swift */; };
 		B16B6DBB1F21C5DE0006D10B /* ARKitGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B6DBA1F21C5DE0006D10B /* ARKitGameUITests.swift */; };
+		B16B6DCB1F21D0C40006D10B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B16B6DCA1F21D0C40006D10B /* art.scnassets */; };
+		B16B6DCD1F21D1DC0006D10B /* SpaceShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16B6DCC1F21D1DC0006D10B /* SpaceShip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,9 @@
 		B16B6DB61F21C5DE0006D10B /* ARKitGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16B6DBA1F21C5DE0006D10B /* ARKitGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitGameUITests.swift; sourceTree = "<group>"; };
 		B16B6DBC1F21C5DE0006D10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16B6DC91F21CADF0006D10B /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		B16B6DCA1F21D0C40006D10B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = ../../../Downloads/art.scnassets; sourceTree = "<group>"; };
+		B16B6DCC1F21D1DC0006D10B /* SpaceShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 				B16B6DAE1F21C5DE0006D10B /* ARKitGameTests */,
 				B16B6DB91F21C5DE0006D10B /* ARKitGameUITests */,
 				B16B6D981F21C5DE0006D10B /* Products */,
+				B16B6DC81F21CADF0006D10B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +105,8 @@
 			children = (
 				B16B6D9A1F21C5DE0006D10B /* AppDelegate.swift */,
 				B16B6D9C1F21C5DE0006D10B /* ViewController.swift */,
+				B16B6DCC1F21D1DC0006D10B /* SpaceShip.swift */,
+				B16B6DCA1F21D0C40006D10B /* art.scnassets */,
 				B16B6D9E1F21C5DE0006D10B /* Main.storyboard */,
 				B16B6DA11F21C5DE0006D10B /* Assets.xcassets */,
 				B16B6DA31F21C5DE0006D10B /* LaunchScreen.storyboard */,
@@ -123,6 +131,14 @@
 				B16B6DBC1F21C5DE0006D10B /* Info.plist */,
 			);
 			path = ARKitGameUITests;
+			sourceTree = "<group>";
+		};
+		B16B6DC81F21CADF0006D10B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B16B6DC91F21CADF0006D10B /* ARKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B16B6DA51F21C5DE0006D10B /* LaunchScreen.storyboard in Resources */,
+				B16B6DCB1F21D0C40006D10B /* art.scnassets in Resources */,
 				B16B6DA21F21C5DE0006D10B /* Assets.xcassets in Resources */,
 				B16B6DA01F21C5DE0006D10B /* Main.storyboard in Resources */,
 			);
@@ -256,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16B6DCD1F21D1DC0006D10B /* SpaceShip.swift in Sources */,
 				B16B6D9D1F21C5DE0006D10B /* ViewController.swift in Sources */,
 				B16B6D9B1F21C5DE0006D10B /* AppDelegate.swift in Sources */,
 			);
@@ -425,6 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E4EA7753RM;
 				INFOPLIST_FILE = ARKitGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kevinpiacentini.ARKitGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E4EA7753RM;
 				INFOPLIST_FILE = ARKitGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kevinpiacentini.ARKitGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
